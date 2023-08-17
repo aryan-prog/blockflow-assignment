@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import DarkMode from './DarkMode';
+import LightMode from './LightMode';
+import rectLight from './assets/rect-light-right.png'
+import useDarkMode from './useDarkMode';
+
 
 function App() {
+  const [isDarkMode, toggleDarkMode] = useDarkMode();
+  const color='Light';
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <LightMode/> */}
+      {isDarkMode ? <DarkMode toggleDarkMode={toggleDarkMode} /> : <LightMode toggleDarkMode={toggleDarkMode} />} 
+      {/* <nav className='navbar'>
+        <div className='blockflow-heading'>
+          <img src={rectLight} alt='light'></img>
+          <img src={rectLight} alt='light'></img>
+        </div>
+      </nav> */}
     </div>
   );
 }
