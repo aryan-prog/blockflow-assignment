@@ -2,3 +2,149 @@
     background: linear-gradient(134deg, #1F284A 0%, #070B17 100%);
     height: 100vh;
 }
+
+@font-face {
+    font-family: 'AirbnbCereal';
+    src: url('./fonts/AirbnbCereal_W_Bd.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+.navbar{
+    display: block;
+    height: 100px;;
+}
+.blockflow-heading-dark{
+    position: absolute;
+    left: 88px;
+    top: 25px;
+    width: 188px;
+}
+
+.blockflow-heading-dark>span{
+    color: #FFF;
+    text-align: center;
+    font-family: AirbnbCereal_W_Bd;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 60% */
+    text-transform: lowercase;
+    position: relative;
+    left:24px;
+    bottom: 11px;
+}
+
+.details-section-dark{
+    position: relative;
+    display: inline-flex;
+    padding: 12px 5px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 50px;
+    float: right;
+    right: 127px;
+}
+
+.details-section-dark>h3{
+    color: #FFF;
+    text-align: center;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px; /* 75% */
+    text-transform: uppercase;
+}
+
+#sun{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    left:427px;
+    top:24px
+}
+.middle-body{
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+.banner-text{
+    width: 856px;
+}
+.banner-dark{
+    position: relative;
+    top:51px;
+    left: 88px;
+    color: #FFF;
+    font-family: Neue Montreal;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    width: 768px;
+    height: 252px;
+    text-align: left;
+}
+.sub-dark{
+    position: relative;
+    top: 96px;
+    left: 92px;
+    width: 335px;
+    height: 47px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.4px; /* 93.6% */
+    text-align: left;
+}
+
+.design-images{
+    position: relative;
+    left: 174px;
+    top: 69px;
+}
+
+#dark1{
+    position: relative;
+    top: 118px;
+    right: 66px;
+}
+
+#dark2{
+    position: relative;
+    top: 139px;
+    right: 51px;
+}
+
+#hex2{
+    position: relative;
+    top: 139px;
+    right: 31px;
+}
+
+.request-demo-dark{
+    position: relative;
+    right: 560px;
+    bottom: 50px;
+    width: 225px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #8075FF;
+    box-shadow: 0px 10.899999618530273px 7.239999771118164px 0px rgba(0, 0, 0, 0.18), 0px 26.200000762939453px 19.09000015258789px 0px rgba(0, 0, 0, 0.28), 0px 49.33000183105469px 35.939998626708984px 0px rgba(0, 0, 0, 0.37), 0px 88.01000213623047px 64.11000061035156px 0px rgba(0, 0, 0, 0.47), 0px 164.60000610351562px 119.9000015258789px 0px rgba(0, 0, 0, 0.61), 0px 394px 250px 0px rgba(0, 0, 0, 0.95);
+    font-family: Lato;
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 17px */
+    text-transform: uppercase;
+    border: none;
+}
