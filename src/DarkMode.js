@@ -1,5 +1,4 @@
 import React from 'react';
-import useDarkMode from './useDarkMode';
 import './DarkMode.css'
 
 
