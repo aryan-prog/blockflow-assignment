@@ -8,7 +8,6 @@ function App() {
   const [isDarkMode, toggleDarkMode] = useDarkMode();
   return (
     <div className="App">
-      {/* <LightMode/> */}
       {isDarkMode ? <DarkMode toggleDarkMode={toggleDarkMode} /> : <LightMode toggleDarkMode={toggleDarkMode} />} 
     </div>
   );
