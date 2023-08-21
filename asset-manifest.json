@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/blockflow/static/css/main.13c3960c.css",
+    "main.js": "/blockflow/static/js/main.fa721207.js",
+    "static/js/787.1044ed57.chunk.js": "/blockflow/static/js/787.1044ed57.chunk.js",
+    "static/media/AirbnbCereal_W_Bd.otf": "/blockflow/static/media/AirbnbCereal_W_Bd.a776e4204206c17ac014.otf",
+    "static/media/hexagon.svg": "/blockflow/static/media/hexagon.f2798c6ac77a9c82210a21c2316cb5bb.svg",
+    "index.html": "/blockflow/index.html",
+    "main.13c3960c.css.map": "/blockflow/static/css/main.13c3960c.css.map",
+    "main.fa721207.js.map": "/blockflow/static/js/main.fa721207.js.map",
+    "787.1044ed57.chunk.js.map": "/blockflow/static/js/787.1044ed57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13c3960c.css",
+    "static/js/main.fa721207.js"
+  ]
+}
