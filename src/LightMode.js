@@ -37,6 +37,7 @@ function LightMode({ toggleDarkMode }) {
         </div>
       </div>
       <button className='request-demo'>Request Demo</button>
+      <div className='animation-sun'></div>
     </div>
   );
 }

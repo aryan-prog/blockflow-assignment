@@ -9,7 +9,6 @@ import './DarkMode.css'
 
 
 function DarkMode({ toggleDarkMode }) {
-//   const [isDarkMode, toggleDarkMode] = useDarkMode();
 
   return (
     <div className='Dark'>
@@ -39,6 +38,7 @@ function DarkMode({ toggleDarkMode }) {
      </div>
    </div>
    <button className='request-demo-dark'>Request Demo</button>
+   <div className='animation-moon'></div>
  </div>
   );
 }
