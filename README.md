@@ -50,8 +50,4 @@ The project is deployed and accessible online. You can view the live demo by fol
 
 ## Contact
 
-For any inquiries or feedback, please contact me via email: your.email@example.com
-
----
-
-Please replace `https://aryan-prog.github.io/blockflow-assignment/` with the actual deployment link of your project. This updated README provides users with a direct link to access the deployed project.
+For any inquiries or feedback, please contact me via email: seth.aryan605@gmail.com
